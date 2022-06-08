@@ -23,7 +23,7 @@ we proposed a novel conversational recommendation model named **UniCRS** to fulf
 
 Please download DBpedia from the [link](https://databus.dbpedia.org/dbpedia/mappings/mappingbased-objects/2021.12.01/mappingbased-objects_lang=en.ttl.bz2), after unzipping, move it into `data/dbpedia`.
 
-You can download our [pre-triained prompt](https://github.com/wxl1999/UniCRS#prompt-pre-training) from [Google Drive](https://drive.google.com/drive/folders/18wxR3atXasSwRRAvlkeJ5J8qLnR0I2bk?usp=sharing).
+You can download our [pre-triained prompt](#prompt-pre-training) from [Google Drive](https://drive.google.com/drive/folders/18wxR3atXasSwRRAvlkeJ5J8qLnR0I2bk?usp=sharing).
 
 
 ## Quick-Start
