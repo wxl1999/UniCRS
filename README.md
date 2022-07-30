@@ -126,11 +126,11 @@ accelerate launch infer_conv.py \
 # merge infer results from conversation
 # redial
 cd src
-cp -r data/redial/. redial_gen/
+cp -r data/redial/. data/redial_gen/
 python data/redial_gen/merge.py --gen_file_prefix xxx # check it in save/redial, e.g., fill in dialogpt_prompt-pre_prefix-20_redial_1e-4 if you see dialogpt_prompt-pre_prefix-20_redial_1e-4_train/valid/test.jsonl
 # inspired
 cd src
-cp -r data/inspired/. inspired_gen/
+cp -r data/inspired/. data/inspired_gen/
 python data/inspired_gen/merge.py --gen_file_prefix xxx # check it in save/inspired, e.g., fill in dialogpt_prompt-pre_prefix-20_inspired_1e-4 if you see dialogpt_prompt-pre_prefix-20_inspired_1e-4_train/valid/test.jsonl
 
 accelerate launch train_rec.py \
