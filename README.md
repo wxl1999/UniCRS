@@ -19,11 +19,13 @@ we proposed a novel conversational recommendation model named **UniCRS** to fulf
 - pyg == 2.0.1
 - accelerate == 0.8.0
 
-## Download Datasets and Pre-trained Model
+## Download Datasets
+
+[//]: # (## Download Datasets and Pre-trained Model)
 
 Please download DBpedia from the [link](https://databus.dbpedia.org/dbpedia/mappings/mappingbased-objects/2021.09.01/mappingbased-objects_lang=en.ttl.bz2), after unzipping, move it into `data/dbpedia`.
 
-You can download our [pre-triained prompt](#prompt-pre-training) from [Google Drive](https://drive.google.com/drive/folders/18wxR3atXasSwRRAvlkeJ5J8qLnR0I2bk?usp=sharing).
+[//]: # (You can download our [pre-triained prompt]&#40;#prompt-pre-training&#41; from [Google Drive]&#40;https://drive.google.com/drive/folders/18wxR3atXasSwRRAvlkeJ5J8qLnR0I2bk?usp=sharing&#41;.)
 
 
 ## Quick-Start
