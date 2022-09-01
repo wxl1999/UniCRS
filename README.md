@@ -169,10 +169,11 @@ Special thanks the CRS toolkit [CRSLab](https://github.com/RUCAIBox/CRSLab), we 
 Please cite the following papers as the references if you use our codes or the processed datasets.
 
 ```bibtex
-@inproceedings{wang2022unicrs,
-  author = {Xiaolei Wang and Kun Zhou and Ji-Rong Wen and Wayne Xin Zhao},
-  title = {Towards Unified Conversational Recommender Systems via Knowledge-Enhanced Prompt Learning},
-  booktitle = {{KDD}},
-  year = {2022}
+@inproceedings{wang2022towards,
+  title={Towards Unified Conversational Recommender Systems via Knowledge-Enhanced Prompt Learning},
+  author={Wang, Xiaolei and Zhou, Kun and Wen, Ji-Rong and Zhao, Wayne Xin},
+  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages={1929--1937},
+  year={2022}
 }
 ```
