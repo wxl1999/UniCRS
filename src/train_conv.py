@@ -134,7 +134,7 @@ if __name__ == '__main__':
         model.config.n_embd, text_encoder.config.hidden_size, model.config.n_head, model.config.n_layer, 2,
         n_entity=kg['num_entities'], num_relations=kg['num_relations'], num_bases=args.num_bases,
         edge_index=kg['edge_index'], edge_type=kg['edge_type'],
-        n_prefix_rec=args.n_prefix_conv
+        n_prefix_conv=args.n_prefix_conv
     )
     if args.prompt_encoder is not None:
         prompt_encoder.load(args.prompt_encoder)
