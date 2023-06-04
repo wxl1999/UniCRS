@@ -30,7 +30,7 @@ Please download DBpedia from the [link](https://databus.dbpedia.org/dbpedia/mapp
 
 ## Quick-Start
 
-We run all experiments and tune hyperparameters on a RTX3090 with 24GB memory, you can adjust `per_device_train_batch_size` and `per_device_eval_batch_size` according to your GPU, and then the optimization hyperparameters (e.g., `learning_rate`) may also need to be tuned.
+We run all experiments and tune hyperparameters on a GPU with 24GB memory, you can adjust `per_device_train_batch_size` and `per_device_eval_batch_size` according to your GPU, and then the optimization hyperparameters (e.g., `learning_rate`) may also need to be tuned.
 
 ### Data processing
 
